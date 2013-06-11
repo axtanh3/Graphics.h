@@ -50,5 +50,6 @@ int main(void)
 	fillpoly(4, f);
 	
 	getch();
+	closegraph();
 	return 0;
 }
