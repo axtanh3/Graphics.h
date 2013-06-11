@@ -16,6 +16,7 @@ int main(void)
 	f[5] = 300;
 
 	a = DETECT;
+	b = 0;
 
 	initgraph(&a, &b, "EGAVGA.BGI");
 	setbkcolor(BLUE);
