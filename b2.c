@@ -1,8 +1,7 @@
-/**
-  Curve Tracing programs using C Graphics
-  Program to draw sin(x) curve in x-y plane
-**/
- 
+/*
+ * B2
+ */
+
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
@@ -46,7 +45,7 @@ void drawyaxis() {
  
 }
  
-void main() {
+int main(void) {
  int color;
  double height = 0;
  double freq = 0;
@@ -88,5 +87,6 @@ for (x = x_left_border(); x < x_right_border(); x += 0.1) {
 
  cleardevice();
  closegraph();
+ return 0;
 
 }
