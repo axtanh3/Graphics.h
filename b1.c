@@ -21,8 +21,8 @@ int main(void)
 	b = 0;
 	
 	//l1, l2 use for calculte R
-	l1 = f[5] - f[1])/2.0;
-	l2 = f[4] - f[2])/2.0;
+	l1 = (f[5] - f[1])/2.0;
+	l2 = (f[4] - f[2])/2.0;
 	
 	//xO, yO 
 	xO = (f[2]+f[4])/2.0;
